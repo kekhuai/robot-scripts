@@ -6,6 +6,10 @@ Test Setup    Common.Begin Web Test
 Test Teardown    Common.End Web Test
 
 *** Variables ***
+${BROWSER} =    chrome
+${START_URL} =    https://www.amazon.com
+${SEARCH_TERM} =    Ferrari 458
+
 *** Test Cases ***
 User can search for products
     [Documentation]    This is some basic info about the suite
