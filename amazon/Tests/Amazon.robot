@@ -16,7 +16,7 @@ User can search for products
     [Tags]    Smoke
     AmazonApp.Search for Products
 
-User must sign in to check out
+Logged out user should be asked to sign in to check out
     [Documentation]    This is some basic info about the suite
     [Tags]    Smoke
     AmazonApp.Search for Products
