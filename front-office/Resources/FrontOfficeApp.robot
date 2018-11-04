@@ -6,3 +6,13 @@ Resource    ./PO/TopNav.robot
 *** Variables ***
 
 *** Keywords ***
+Go to Landing Page
+    Landing.Navigate To
+    Landing.Verify Page Loaded
+
+Go To "Team" Page
+    TopNav.Select "Team" Page
+    Team.Verify Page Loaded
+
+Validate "Team" Page
+    Team.Validate Page Contents
