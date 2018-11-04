@@ -11,7 +11,7 @@ ${START_URL} =    https://www.amazon.com
 ${SEARCH_TERM} =    Ferrari 458
 
 *** Test Cases ***
-User can search for products
+Logged out user should be able to search for products
     [Documentation]    This is some basic info about the suite
     [Tags]    Smoke
     AmazonApp.Search for Products
